@@ -1,0 +1,167 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+.menu{
+    background-color: rgba(9, 7, 6, 0.3);       
+    padding: 2%;
+}
+
+.itens_menu{
+    text-align: center;
+    line-height: 1.5;
+}
+
+.itens_menu a:link, .itens_menu a:visited{
+
+    color: #FFDEAD;
+    font-weight: bolder;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+.itens_menu a:hover{
+    padding: 0.8%;
+    background-color: rgba(9, 7, 6, 0.3);
+}
+
+.itens_menu a:active {
+    color: black;
+}
+
+#veja_mais a:link, #veja_mais a:visited{
+
+    color: #2F4F4F;
+    font-size: 1.2em;
+    
+}
+#veja_mais a:hover{
+    color: #FFDEAD ;
+}
+
+body{
+    background-color: #DEB887;
+}
+
+figure{
+
+    text-align: center;
+    
+
+}
+
+h1{
+    color: #8B4513;
+    font-size: 2em;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-weight: bold;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.img_topo{
+    width: 100%;
+    
+}
+
+.img_corpo{
+    width: 40%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.img_direito{
+    float: right;
+    width: 40%;
+    padding-left: 1%;
+}
+
+.img_esquerdo{
+    float: left;
+    width: 40%;
+    height: 37%;
+    padding-right: 1%;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+
+font-size: 1.3em;
+text-align: justify;
+text-indent:35px;
+line-height: 1.5;
+font-family: 'Caveat', cursive;
+}
+
+.parag_letras > p{
+    font-size: 1em;
+    text-align: center;
+
+}
+
+.botao {
+    width: 130px;
+    height: 20px;
+    background-color:  rgba(9, 7, 6, 0.3);
+    padding: 1%;
+    margin: auto;  
+    margin-bottom: 2%; 
+    margin-top: 2%;
+    
+}
+
+.botao a:link, .botao a:visited {
+    color:	#2F4F4F;
+    text-decoration:none;
+    font-weight: bolder;
+
+
+}
+
+.botao a:hover{
+    color: black;
+    font-weight: bold;
+
+}
+
+.botao:hover {  
+    background-color: #FFDEAD;
+    color: black;
+    
+}
+footer{
+    background-color: rgba(9, 7, 6, 0.3);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+}
+footer p{    
+    color: #fff;
+    font-weight: bold;
+    font-size: 1em;
+}
+.center{
+    text-align: center;    
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 10px ridge #8B4513; 
+    padding-top: 1% ;   
+    padding-bottom: 1%;
+
+}

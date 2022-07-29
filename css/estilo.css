@@ -62,12 +62,12 @@ h1{
 }
 
 .img_topo{
-    width: 100%;
+    width:90%;
     
 }
 
 .img_corpo{
-    width: 40%;
+    width: 50%;
     margin-top: 1%;
     margin-bottom: 1%;
 }
@@ -85,7 +85,7 @@ h1{
 
 .img_esquerdo{
     float: left;
-    width: 40%;
+    width: 20%;
     height: 37%;
     padding-right: 1%;
 }

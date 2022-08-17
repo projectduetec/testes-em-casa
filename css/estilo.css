@@ -165,3 +165,59 @@ td, th {
     padding-bottom: 1%;
 
 }
+td:first-child { 
+    width: 30%;  
+}
+td:first-child + td {  
+    width: 70%; 
+}
+
+audio{
+    width: 60%;
+    
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+  background-color: #8B4513;  
+}
+
+form{
+    box-sizing: border-box;
+}
+
+input[type=text], select, input[type=tel], input[type=email] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+  }
+
+label{
+    width: 50%;
+    display: inline-block;
+    margin-left: 3%;
+    margin-bottom: 1%;
+}
+
+input[type=radio]{
+    display: block;
+}
+
+.form{
+    background-color:rgba(9, 7, 6, 0.3) ;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.col-25{
+    width: 25%;
+    float: left;
+}
+
+.col-75{
+    width: 75%;
+    float: left;
+}
+

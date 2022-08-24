@@ -62,7 +62,7 @@ h1{
 }
 
 .img_topo{
-    width:90%;
+    width:100%;
     
 }
 
@@ -79,13 +79,13 @@ h1{
 
 .img_direito{
     float: right;
-    width: 40%;
+    width: 20%;
     padding-left: 1%;
 }
 
 .img_esquerdo{
     float: left;
-    width: 20%;
+    width: 17%;
     height: 37%;
     padding-right: 1%;
 }
@@ -220,4 +220,26 @@ input[type=radio]{
     width: 75%;
     float: left;
 }
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  input[type=submit] {
+    background-color: rgba(9, 7, 6, 0.3);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+
+  input[type=submit]:hover {
+    background-color: black;
+    font-weight: bolder;
+  }
+  
+  
 

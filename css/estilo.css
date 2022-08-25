@@ -58,7 +58,7 @@ h1{
     padding-top: 1%;
     padding-bottom: 1%;
     font-weight: bold;
-    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Edu NSW ACT Foundation'
 }
 
 .img_topo{
@@ -79,7 +79,7 @@ h1{
 
 .img_direito{
     float: right;
-    width: 20%;
+    width: 30%;
     padding-left: 1%;
 }
 
@@ -160,7 +160,7 @@ table{
 }
 
 td, th {
-    border: 10px ridge #D2B48C	 
+    border: 10px ridge #664f31	 
     padding-top: 1% ;   
     padding-bottom: 1%;
 
@@ -173,7 +173,7 @@ td:first-child + td {
 }
 
 audio{
-    width: 60%;
+    width: 70%;
     
 }
 
@@ -259,4 +259,3 @@ input[type=radio]{
   }
   
   
-
